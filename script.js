@@ -44,21 +44,12 @@
 // };
 
 
-let students = [
-    {
-    name : "sanket",
-    age:20,
-    qualification:"bsc cs"
-    },
+// 
 
-    {
-     name : "pranav",
-    age:288,
-    qualification:"bsc+cs"
-    }
-];
+function cal(a,b){
+    let sum = a + b;
+    return sum;
+}
+let result = cal(2,5);
+console.log(result); // 
 
-students[1].name = "sanket kumar";
-console.log(students);
-// students.sanket.qualification = "msc cs";
-// console.log(students);
