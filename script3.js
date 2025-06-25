@@ -1,7 +1,11 @@
 
-let id = document.querySelector("button");
-console.log(id);
+let ex = document.querySelector("button");
 
-id.onclick = function(){
+
+ex.onclick = function(){
     console.log("Button clicked");
 }
+
+ex.addEventListener("mouseenter", function(){
+    console.log("Mouse entered the button");
+})
